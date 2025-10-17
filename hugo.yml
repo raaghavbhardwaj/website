@@ -1,0 +1,60 @@
+baseURL: 'https://raaghavbhardwaj.me/'
+languageCode: 'en-us'
+title: 'Blog by Raaghav Bhardwaj'
+theme: 'PaperMod'
+
+permalinks:
+  posts: "/:slug/"
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
+menu:
+  main:
+    - identifier: wiki
+      name: Wiki
+      url: /wiki/
+      weight: 10
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 20
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 30
+    - identifier: archive
+      name: Archive
+      url: /archives/
+      weight: 40
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 50
+
+params:
+  math: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
+  TocOpen: true
+
+  homeInfoParams:
+    Title: Hi there wave
+    Content: Can be Info, links, about...
+
+  socialIcons: # optional
+    - name: linkedin
+      url: "<link>"
+    - name: github
+      url: "<link2>"
+    - name: x
+      url: "<link3>"
+
+  fuseOpts:
+    ignoreLocation: true
+    keys: ["title", "permalink", "summary", "content"]
+
