@@ -1,6 +1,6 @@
 baseURL: 'https://raaghavbhardwaj.me/'
 languageCode: 'en-us'
-title: 'Blog by Raaghav Bhardwaj'
+title: 'Raaghav Bhardwaj'
 theme: 'PaperMod'
 
 permalinks:
@@ -43,16 +43,14 @@ params:
   TocOpen: true
 
   homeInfoParams:
-    Title: Hi there wave
-    Content: Can be Info, links, about...
+    Title: Hey there, welcome! 👋
+    Content: Explore a bit — you’ll find cool info, handy links, and a few things about me here.
 
   socialIcons: # optional
     - name: linkedin
-      url: "<link>"
-    - name: github
-      url: "<link2>"
+      url: https://www.linkedin.com/in/raaghavbhardwaj/
     - name: x
-      url: "<link3>"
+      url: https://x.com/RaaghavBhardwaj
 
   fuseOpts:
     ignoreLocation: true

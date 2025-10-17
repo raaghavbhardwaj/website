@@ -1,12 +1,10 @@
 ---
-title: ℹ️ About Vidyarthi Vrittanta
-description: Learn more about us, our mission, and the purpose behind this website.
-date: 2025-09-30
+title: About Me 🙋
 draft: false
 ShowToc: false
 searchHidden: true
 ---
-Welcome to **Vidyarthi Vrittanta!** I'm **Raaghav Bhardwaj**, and this corner of the internet is where I share what I'm learning, document my journey, and sometimes just put my thoughts out there.
+Hi, I'm **Raaghav Bhardwaj**, and this corner of the internet is where I share what I'm learning, document my journey, and sometimes just put my thoughts out there.
 
 ## **Who Am I?**
 

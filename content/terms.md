@@ -1,14 +1,12 @@
 ---
-title: ⚖️ Terms & Conditions
-description: Read the terms and conditions outlining the rules, responsibilities, and guidelines for using this website.
-date: 2025-09-30
+title: Terms & Conditions ⚖️
 draft: false
 ShowToc: false
 searchHidden: true
 ---
 **Last Updated:** September 30, 2025
 
-Please read these Terms and Conditions ("Terms", "Terms and Conditions") carefully before using the Vidyaarthi Vrittanta website (the "Service") operated by Vidyaarthi Vrittanta ("I", "me", or "my").
+Please read these Terms and Conditions ("Terms", "Terms and Conditions") carefully before using the website (the "Service") operated by Raaghav Bhardwaj ("I", "me", or "my").
 
 Your access to and use of the Service is conditioned upon your acceptance of and compliance with these Terms. These Terms apply to all visitors, users, and others who wish to access or use the Service.
 
@@ -18,7 +16,7 @@ By accessing or using the Service, you agree to be bound by these Terms. If you 
 
 All content published and made available on this blog is the property of Vidyaarthi Vrittanta. This includes, but is not limited to, images, text, logos, documents, downloadable files, and everything that contributes to the composition of the Service.
 
-You are granted a limited license to access and use the content for personal, non-commercial purposes. You may share links to the content or quote small excerpts, provided that you give full and clear credit to **Vidyaarthi Vrittanta** with a direct and specific link back to the original content.
+You are granted a limited license to access and use the content for personal, non-commercial purposes. You may share links to the content or quote small excerpts, provided that you give full and clear credit to **Raaghav Bhardwaj** with a direct and specific link back to the original content.
 
 You are expressly prohibited from:
 

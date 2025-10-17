@@ -1,12 +1,10 @@
 ---
-title: 🔒Privacy Policy
-description: Review our privacy policy to understand how we collect, use, and protect your personal information.
-date: 2025-09-30
+title: Privacy Policy 🔒
 draft: false
 ShowToc: false
 searchHidden: true
 ---
-Vidyaarthi Vrittanta ("I", "me", or "my") operates the Vidyaarthi Vrittanta website (the "Service").
+Raaghav Bhardwaj ("I", "me", or "my") operates the website (the "Service").
 
 My goal is to share my notes and learnings while collecting as little of your personal information as possible. This policy explains the minimal, essential data that is collected for the website to function.
 
