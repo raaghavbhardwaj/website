@@ -1,7 +1,7 @@
 ---
 title: Quantitative Aptitude Syllabus
 description: A Comprehensive Quantitative Aptitude Syllabus
-date: 2025-10-22
+date: 
 draft: false
 tags:
 categories:

@@ -1,7 +1,7 @@
 ---
 title: English Syllabus
 description: A Comprehensive English for Competitive Syllabus
-date: 2026-01-17
+date: 
 draft: false
 tags:
 categories:
