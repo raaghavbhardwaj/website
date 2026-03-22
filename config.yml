@@ -39,7 +39,7 @@ menu:
       weight: 50
 
 params:
-  math: true
+  math: false
   ShowPostNavLinks: true
   ShowCodeCopyButtons: true
   ShowToc: true
