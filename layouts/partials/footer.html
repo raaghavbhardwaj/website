@@ -1,23 +1,54 @@
 {{- if not (.Param "hideFooter") }}
 <footer class="footer">
+    {{- $links := slice -}}
+    {{- with site.GetPage "/privacy" -}}
+        {{- if not .Draft -}}
+            {{- $links = $links | append (printf `<a href="%s">Privacy</a>` .RelPermalink) -}}
+        {{- end -}}
+    {{- end -}}
+    {{- with site.GetPage "/about" -}}
+        {{- if not .Draft -}}
+            {{- $links = $links | append (printf `<a href="%s">About</a>` .RelPermalink) -}}
+        {{- end -}}
+    {{- end -}}
+    {{- with site.GetPage "/terms" -}}
+        {{- if not .Draft -}}
+            {{- $links = $links | append (printf `<a href="%s">Terms</a>` .RelPermalink) -}}
+        {{- end -}}
+    {{- end -}}
+
     {{- if not site.Params.footer.hideCopyright }}
         {{- if site.Copyright }}
         <span>{{ site.Copyright | markdownify }}</span>
         {{- else }}
         <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
         {{- end }}
-        {{- print " · "}}
+        {{- if gt (len $links) 0 -}}{{- print " · "}}{{- end -}}
     {{- end }}
 
     {{- with site.Params.footer.text }}
         {{ . | markdownify }}
-        {{- print " · "}}
+        {{- if gt (len $links) 0 -}}{{- print " · "}}{{- end -}}
     {{- end }}
-    <span>
-        <a href="{{ "privacy/" | relLangURL }}">Privacy</a>{{- print " · " -}}
-        <a href="{{ "about/" | relLangURL }}">About</a>{{- print " · " -}}
-        <a href="{{ "terms/" | relLangURL }}">Terms</a>
-    </span>
+    {{- with site.GetPage "/privacy" -}}
+        {{- if not .Draft -}}
+            {{- $links = $links | append (printf `<a href="%s">Privacy</a>` .RelPermalink) -}}
+        {{- end -}}
+    {{- end -}}
+    {{- with site.GetPage "/about" -}}
+        {{- if not .Draft -}}
+            {{- $links = $links | append (printf `<a href="%s">About</a>` .RelPermalink) -}}
+        {{- end -}}
+    {{- end -}}
+    {{- with site.GetPage "/terms" -}}
+        {{- if not .Draft -}}
+            {{- $links = $links | append (printf `<a href="%s">Terms</a>` .RelPermalink) -}}
+        {{- end -}}
+    {{- end -}}
+
+    {{- if gt (len $links) 0 -}}
+    <span>{{ delimit $links " · " | safeHTML }}</span>
+    {{- end -}}
 </footer>
 {{- end }}
 

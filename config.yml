@@ -52,10 +52,10 @@ params:
     Content: Explore a bit — you’ll find cool info, handy links, and a few things about me here.
 
   socialIcons: # optional
-    - name: linkedin
-      url: https://www.linkedin.com/in/raaghavbhardwaj/
     - name: x
       url: https://x.com/RaaghavBhardwaj
+    - name: cv
+      url: https://example.com
 
   fuseOpts:
     ignoreLocation: true
