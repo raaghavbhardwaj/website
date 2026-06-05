@@ -1,6 +1,6 @@
 ---
 title: Privacy Policy 🔒
-draft: false
+draft: true
 ShowToc: false
 searchHidden: true
 ---

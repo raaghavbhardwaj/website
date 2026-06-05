@@ -1,8 +1,8 @@
 ---
 title: GK Syllabus
 description: A Comprehensive GK for Competitive Syllabus
-date: 
-draft: false
+date:
+draft: true
 tags:
 categories:
   - Government Exams

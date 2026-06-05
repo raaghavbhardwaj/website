@@ -1,8 +1,8 @@
 ---
 title: Quantitative Aptitude Syllabus
 description: A Comprehensive Quantitative Aptitude Syllabus
-date: 
-draft: false
+date:
+draft: true
 tags:
 categories:
   - Government Exams

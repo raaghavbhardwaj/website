@@ -1,8 +1,8 @@
 ---
 title: Reasoning Syllabus
 description: A Comprehensive Reasoning Syllabus
-date: 
-draft: false
+date:
+draft: true
 tags:
 categories:
   - Government Exams

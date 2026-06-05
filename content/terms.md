@@ -1,6 +1,6 @@
 ---
 title: Terms & Conditions ⚖️
-draft: false
+draft: true
 ShowToc: false
 searchHidden: true
 ---
