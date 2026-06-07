@@ -61,3 +61,13 @@ params:
     ignoreLocation: true
     keys: ["title", "permalink", "summary", "content"]
 
+  profileMode:
+    enabled: true
+    title: "Raaghav Bhardwaj"
+    subtitle: "Explore a bit — you’ll find cool info, handy links, and a few things about me here."
+    buttons:
+      - name: Blog
+        url: posts
+      - name: About
+        url: about
+
