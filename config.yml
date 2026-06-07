@@ -41,11 +41,14 @@ menu:
 
 params:
   description: Personal notes on learning, exam prep, and data-focused topics by Raaghav Bhardwaj.
+  defaultTheme: dark
+  disableThemeToggle: true
   math: false
   ShowPostNavLinks: true
   ShowCodeCopyButtons: true
   ShowToc: true
   TocOpen: true
+  hideFooter: true
 
   homeInfoParams:
     Title: Hey there, welcome! 👋
@@ -64,6 +67,8 @@ params:
   profileMode:
     enabled: true
     title: "Raaghav Bhardwaj"
+    imageUrl: ""
+    imageTitle: "Profile image"
     subtitle: "Explore a bit — you’ll find cool info, handy links, and a few things about me here."
     buttons:
       - name: Blog
