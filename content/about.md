@@ -1,6 +1,6 @@
 ---
 title: About Me 🙋
-draft: true
+draft: false
 ShowToc: false
 searchHidden: true
 ---

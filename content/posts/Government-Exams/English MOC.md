@@ -2,7 +2,7 @@
 title: English Syllabus
 description: A Comprehensive English for Competitive Syllabus
 date:
-draft: true
+draft: false
 tags:
 categories:
   - Government Exams

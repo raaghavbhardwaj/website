@@ -1,4 +1,4 @@
-{{- if not (.Param "hideFooter") }}
+{{- if not (or (.Param "hideFooter") site.Params.hideFooter) }}
 <footer class="footer">
     {{- $links := slice -}}
     {{- with site.GetPage "/privacy" -}}
