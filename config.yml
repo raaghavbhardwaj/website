@@ -22,18 +22,22 @@ menu:
       name: Wiki
       url: /wiki/
       weight: 10
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 20
     - identifier: categories
       name: Categories
       url: /categories/
-      weight: 20
-    - identifier: tags
-      name: Tags
-      url: /tags/
       weight: 30
-    - identifier: archive
-      name: Archive
-      url: /archives/
-      weight: 40
+    # - identifier: tags
+    #   name: Tags
+    #   url: /tags/
+    #   weight: 30
+    # - identifier: archive
+    #   name: Archive
+    #   url: /archives/
+    #   weight: 40
     - identifier: search
       name: Search
       url: /search/
@@ -51,7 +55,7 @@ params:
   hideFooter: true
 
   homeInfoParams:
-    Title: Hey there, welcome! 👋
+    Title: A quiet corner for curious minds.
     Content: Explore a bit — you’ll find cool info, handy links, and a few things about me here.
 
   socialIcons: # optional
@@ -67,7 +71,7 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 
   profileMode:
-    enabled: true
+    enabled: false
     title: "Raaghav Bhardwaj"
     imageUrl: ""
     imageTitle: "Profile image"
